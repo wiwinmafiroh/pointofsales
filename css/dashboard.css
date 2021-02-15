@@ -1,0 +1,452 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* BODY */
+body {
+  /*	font-family: 'Poppins', sans-serif;*/
+  background: #fafafa;
+}
+
+/*p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: white;
+}*/
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+
+
+
+
+/* BAGIAN SAMPING */
+.btn-garis {
+  background: #CD853F;
+  border-color: #CD853F;
+  color: white;
+}
+
+.btn-garis:hover {
+  background: #DEB887;
+  border-color: #DEB887;
+  color: white;
+}
+
+.bg-navbar {
+  background-color: #8B4513 !important;
+}
+
+.menu i {
+  margin: 7px;
+  width: 40px;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+.judulatas {
+  display: inline-block;
+  color: white;
+  padding-left: 11px;
+  padding-right: 38px;
+  font-size: 20px;
+}
+
+.navbar h4 {
+  margin-top: 12px;
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed brown;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #CD853F;
+  color: #fff;
+  transition: all 0.3s;
+  min-height: 1200px;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  height: 60px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: #8B4513;
+}
+
+#sidebar ul.components {
+  padding: 10px 0px;
+  margin-top: -6px;
+}
+
+#sidebar ul p {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a {
+  padding: 15px;
+  font-size: 16px;
+  display: block;
+}
+
+.atas {
+  border-top: 1px solid #8B4513;
+}
+
+#sidebar ul li a:hover {
+  color: #8B4513;
+  background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #8B4513;
+}
+
+.rounded-circle {
+  padding: 10px;
+  width: 35%;
+  margin-top: -93px;
+}
+
+.list-unstyled h4 {
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 68px;
+  margin-left: 90px;
+}
+
+.list-unstyled small {
+  margin-left: 90px;
+}
+
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle:after {
+  display: block;
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 16px !important;
+  padding-left: 30px !important;
+  background: #8B4513;
+}
+
+ul.CTAs {
+  padding: 20px;
+  margin-top: -20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 16px !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #8B4513;
+}
+
+a.article,
+a.article:hover {
+  background: #8B4513 !important;
+  color: #fff !important;
+}
+
+/* AKHIR BAGIAN SAMPING */
+
+
+
+
+
+/* BAGIAN ATAS DAN TENGAH */
+/* Bagian Atas */
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* Akhir Bagian Atas*/
+
+
+
+/* Bagian Tengah */
+/* card dashboard */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-md {
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 100px;
+}
+
+.card-dashboard {
+  width: 25%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.card-besar {
+  width: 100%;
+  text-align: justify;
+}
+
+.col-md h5 {
+  font-size: 18px;
+}
+
+
+
+/* users */
+.cardaksi {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-top: 3px solid brown;
+}
+
+.bagianpenjualan {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-top: 3px solid none;
+  padding-top: 5px;
+}
+
+.cardaksi-header {
+  background: none;
+  border-bottom: 1px dashed grey;
+}
+
+.cardaksi-header h5 {
+  font-size: 18px;
+}
+
+.tambah {
+  margin-bottom: 20px;
+}
+
+.table thead th {
+  border-color: #DEB887;
+}
+
+.table-striped,
+.table-bordered {
+  border-color: #DEB887;
+}
+
+.table-striped th,
+td {
+  width: 600px;
+  border-color: #DEB887;
+}
+
+.table-striped th {
+  background-color: white;
+  border-color: #DEB887;
+}
+
+.table-striped tr:nth-child(odd) {
+  background-color: #F5DEB3 !important;
+}
+
+.table-striped tr:nth-child(even) {
+  background-color: white !important;
+}
+
+
+
+.table-bordered td {
+  width: 600px;
+  border-color: #DEB887;
+}
+
+.table-bordered th {
+  background-color: white;
+  border-color: #DEB887;
+}
+
+.table-bordered tr:nth-child(odd) {
+  background-color: #F5DEB3 !important;
+}
+
+.table-bordered tr:nth-child(even) {
+  background-color: white !important;
+}
+
+.tambah-users {
+  width: 500px;
+}
+
+
+/* menu */
+.btn-datapenjualan,
+.btn-inputpenjualan {
+  padding-bottom: 900px;
+}
+
+
+
+
+
+
+
+
+
+/* penjualan */
+.btn_tambahdatapenjualan {
+  margin-bottom: 15px;
+}
+
+
+
+
+/* Akhir Bagian Tengah */
+
+
+
+/* TABLETS VERSION KEBAWAH */
+@media(max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+
+  #sidebar.active {
+    margin-left: 0px;
+  }
+
+  #sidebarcollapse span {
+    display: none;
+  }
+
+
+
+
+  /* Card Dashboard */
+  .card-dashboard p {
+    font-size: 11px;
+  }
+
+  .card-besar img {
+    width: 50%;
+  }
+
+  .col-md h5 {
+    font-size: 18px;
+  }
+
+  .card-besar h5 {
+    font-size: 15px;
+  }
+
+
+
+  /* Users */
+  .table-striped th {
+    width: auto;
+    font-size: 12px;
+  }
+
+  .tambah,
+  .edit,
+  .hapus {
+    font-size: 12px;
+  }
+
+  .table td {
+    font-size: 12px;
+  }
+
+  .users {
+    padding-left: 70px;
+  }
+}
+
+
+
+
+/* HANDPHONE VERSION */
+@media (max-width: 576px) {
+
+  /* Card Dashboard */
+  .card-dashboard p {
+    font-size: 9px;
+  }
+
+  /* Users */
+  .users {
+    padding-left: 8px;
+  }
+
+  .table-striped th {
+    width: auto;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .tambah,
+  .edit,
+  .hapus {
+    font-size: 13px;
+  }
+
+  .edit,
+  .hapus {
+    width: 70px;
+    margin-bottom: 3px;
+  }
+
+  .table td {
+    font-size: 13px;
+  }
+}
